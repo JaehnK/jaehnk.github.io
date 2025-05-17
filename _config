@@ -1,0 +1,53 @@
+title: 내 GitHub 블로그
+description: >-
+  GitHub Pages와 Jekyll로 만든 블로그입니다.
+baseurl: "" # 서브 경로가 있는 경우 기재 (예: /blog)
+url: "" # 도메인 이름 (예: https://username.github.io)
+
+# 빌드 설정
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 제외할 파일/폴더
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
+
+# 페이지네이션 설정
+# paginate: 5
+# paginate_path: "/page:num/"
+
+# 블로그 포스트 기본 설정
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+# 소셜 미디어 정보
+# twitter_username: username
+github_username: your-github-username
+
+# Google Analytics
+# google_analytics: UA-XXXXXXXX-X
+
+# 사이트 저자 정보
+author:
+  name: 당신의 이름
+  email: your-email@example.com
+
+# 사이트 메뉴 구성
+header_pages:
+  - about.md
+  - projects.md
