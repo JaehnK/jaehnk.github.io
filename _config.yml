@@ -1,3 +1,18 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [ main ]  # 또는 master
+
+permissions:
+  contents: write  # 여기에 권한 추가
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 기존 단계들...
+
 title: 내 GitHub 블로그
 description: >-
   GitHub Pages와 Jekyll로 만든 블로그입니다.
