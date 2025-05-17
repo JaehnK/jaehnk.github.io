@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-# Jekyll 버전을 지정합니다 (GitHub Pages와 호환되는 버전)
+# Jekyll 버전을 지정합니다 (GitHub Pages와 호환되는 버전) 
 gem "jekyll", "~> 3.9.3"
 
 # GitHub Pages와 함께 사용할 플러그인들
