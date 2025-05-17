@@ -1,5 +1,5 @@
 name: GitHub Pages
-
+theme: minimal
 on:
   push:
     branches: [ main ]  # 또는 master
