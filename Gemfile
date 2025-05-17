@@ -6,7 +6,7 @@ gem "jekyll", "~> 3.9.3"
 # GitHub Pages와 함께 사용할 플러그인들
 group :jekyll_plugins do
   gem "github-pages", "~> 231"
-  gem "jekyll-feed", "~> 0.15.1"
+  gem "jekyll-feed", "~> 0.17.0"
   gem "jekyll-seo-tag", "~> 2.8.0"
   gem "jekyll-sitemap", "~> 1.4.0"
 end
